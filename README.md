@@ -105,9 +105,13 @@ I use a 70%/30% split because it is a relatively bigger dataset.
 I have tried 6 machine learning model and 2 neural network.
 
 **Why I choose the four algorithms?**
+
 **Linear Regression:** Linear Regression is a simple, interpretable algorithm that assumes a linear relationship between the features and the target variable. It's often a good starting point for regression tasks. When have continuous variables and a linear relationship might exist, Linear Regression can quickly give us an understanding of how changes in the input features affect the output. It can be easily visualized and explained, making it ideal for basic models or as a benchmark for comparison with more complex algorithms.
+
 **K-Nearest Neighbour (KNN):** KNN is a non-parametric, instance-based learning algorithm. It doesn't make any assumptions about the underlying data distribution. Instead, it relies on the principle that similar instances should have similar outcomes. KNN is useful for capturing non-linear relationships in the data and can be adjusted by changing the number of neighbours. It is a versatile method that can help when the data has clusters or complex patterns.
+
 **Random Forest:** Random Forest is an ensemble learning technique that combines multiple decision trees to improve performance and reduce overfitting. By randomly selecting subsets of features and instances to build each tree, Random Forest enhances generalization and robustness. This algorithm is suitable for complex datasets with many features and interactions. It can handle non-linear relationships and provide feature importance, helping to identify key contributors to the target variable.
+
 **XGBoost:** XGBoost (Extreme Gradient Boosting) is an advanced gradient boosting algorithm designed for high performance and scalability. It uses a series of trees to make predictions, where each tree aims to correct the errors of the previous ones. XGBoost offers extensive parameter tuning options, making it highly adaptable to different datasets. It is known for its accuracy and speed, especially in competitions and real-world scenarios where the data is complex and large.
 
 Moreover, I conducted experiments on neural network. Neural networks are used in this project because they excel at modeling complex, non-linear relationships and can handle large datasets. 
