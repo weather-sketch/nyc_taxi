@@ -6,26 +6,7 @@ The investigation aimes to conduct regression task on the New York City Yellow T
 
 When dealing with the New York City Taxi Dataset, one must first define the specific problem to be solved. In the context provided, the problem is twofold: predicting oral temperature from infrared thermographic images and determining whether the temperature indicates a fever. The dataset, which could be sourced from NYC Taxi and Limousine Commission website, contains data from all the yellow taxi trip of January 2024.
 
-The assembled dataset includes 18 input features:
- 0   VendorID               296470 non-null  int32         
- 1   tpep_pickup_datetime   296470 non-null  datetime64[us]
- 2   tpep_dropoff_datetime  296470 non-null  datetime64[us]
- 3   passenger_count        282450 non-null  float64       
- 4   trip_distance          296470 non-null  float64       
- 5   RatecodeID             282450 non-null  float64       
- 6   store_and_fwd_flag     282450 non-null  object        
- 7   PULocationID           296470 non-null  int32         
- 8   DOLocationID           296470 non-null  int32         
- 9   payment_type           296470 non-null  int64         
- 10  fare_amount            296470 non-null  float64       
- 11  extra                  296470 non-null  float64       
- 12  mta_tax                296470 non-null  float64       
- 13  tip_amount             296470 non-null  float64       
- 14  tolls_amount           296470 non-null  float64       
- 15  improvement_surcharge  296470 non-null  float64       
- 16  total_amount           296470 non-null  float64       
- 17  congestion_surcharge   282450 non-null  float64       
- 18  Airport_fee            282450 non-null  float64
+![image](https://github.com/weather-sketch/nyc_taxi/assets/138662766/6fdc87d2-26d4-43a7-9705-8a172f84b59d)
 
 This is the detailed explaination of each feature:
 ![image](https://github.com/weather-sketch/nyc_taxi/assets/138662766/0776b1a4-cb9c-44ac-976c-5b52ed09bc46)
